@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/25\ Breathtaking\ Images\ of\ Earth\ at\ Night\ Taken\ from\ Space.jpeg");
+    /* background-position: 50% 50%; */
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: vazir;
+    font-style: "normal";
+    font-weight: 100;
+    src: url("../fonts/Vazirmatn-Regular.woff2");
+}
+@font-face {
+    font-family: vazir;
+    font-style: "normal";
+    font-weight: 300;
+    src: url("../fonts/Vazirmatn-Bold.woff2");
+}
+
+.continer {
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 40%;
+    height: 50%;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner {
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.test_after {
+    justify-content: center;
+    align-items: center;
+}
+.BOX {
+    width: 98%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.UserName {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px white;    
+}
+
+.buttm {
+    background-color: rgb(33, 163, 33);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttm:hover {
+    background-color: green;
+}
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: vazir;
+    font-weight: "300";
+}
+#login {
+    color: rgb(68, 68, 238);
+    cursor: pointer;
+    order: 1;
+    margin-right: 5px;
+    
+}
+#login:hover {
+    color: rgb(0, 110, 255);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#acount {
+    order: 2;
+}
+
+.input_user {
+    width: 89%;
+    height: 100%;
+    direction: rtl;
+    font-family: vazir;
+    font-weight: 300;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.graybox {
+    height: 100%;
+    width: 10%;
+    background-color: gray;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.rong_test {
+    color: red;
+    /* display: block; */
+    direction: rtl;
+    font-weight: 100;
+}
+.erorr{
+     display: none;
+     width: 600px;
+     margin-bottom: 7PX;
+}
+
+.nobody {
+    color: red;
+    font-weight: 400;
+}
+
+.somebody {
+    color: green;
+    font-weight: 400;
+    direction:inherit;
+}
